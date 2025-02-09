@@ -22,7 +22,7 @@ The results are combined in the parent process to produce the final multiplicati
 ## Prerequisites
 
 - **Operating System:** UNIX-based (Linux, macOS, etc.)  
-  *The program uses POSIX system calls (`fork()`, `pipe()`, etc.).*
+  The program uses POSIX system calls (`fork()`, `pipe()`, etc.).
 - **Compiler:** GCC (or any standard C compiler)
 - **Knowledge:** Basic understanding of C programming and inter-process communication
 
