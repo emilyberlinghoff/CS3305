@@ -6,9 +6,7 @@ This project demonstrates how to multiply two 4-digit integers by splitting them
 
 The multiplication is done using the standard “grade-school” algorithm:
 
-\[
-a \times b = (a_1 \times b_1) \times 10000 + (a_1 \times b_2 + a_2 \times b_1) \times 100 + (a_2 \times b_2)
-\]
+$$a \times b = (a_1 \times b_1) \times 10000 + (a_1 \times b_2 + a_2 \times b_1) \times 100 + (a_2 \times b_2)$$
 
 Where:
 - For a 4-digit number `a`, the digits are split into `a1` (the first two digits) and `a2` (the last two digits).
