@@ -117,10 +117,10 @@ If the provided numbers are not valid 4-digit integers, the program prints an er
 - The final result and a breakdown of the calculation are printed to the screen.
   ```bash
   X = (a1 * b1) * 10^4
-Y = (a1 * b2 + a2 * b1) * 10^2
-Z = (a2 * b2)
-Result = X + Y + Z
-```
+  Y = (a1 * b2 + a2 * b1) * 10^2
+  Z = (a2 * b2)
+  Result = X + Y + Z
+  ```
 
 ## Error Handling
 
@@ -134,6 +134,6 @@ Result = X + Y + Z
 - **Reference Material:**
   The implementation is inspired by examples found on GeeksforGeeks and Wyzant, and by the relevant UNIX manual pages.
   
-  [text](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
-  [text](https://www.wyzant.com/resources/answers/859625/write-a-c-program-where-two-child-processes-are-created-using-fork)
-  [text](https://chatgpt.com/share/67a90f19-adc4-8000-8fe5-d1a6d1ba62c3)
+  [GeeksForGeeks](https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/)
+  [Wyzant](https://www.wyzant.com/resources/answers/859625/write-a-c-program-where-two-child-processes-are-created-using-fork)
+  [ChatGPT](https://chatgpt.com/share/67a90f19-adc4-8000-8fe5-d1a6d1ba62c3)
