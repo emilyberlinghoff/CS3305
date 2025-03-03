@@ -30,13 +30,13 @@ To check a Sudoku file:
 ```sh
 ./assignment-3 <sudoku_file.txt>
 ```
-For example (there are many exmaples included in this directory):
+For example:
 ```sh
 ./assignment-3 valid-sudoku-1.txt
 ```
 
 ## Input Format
-The input file should contain a 9×9 Sudoku grid, where numbers are space-separated.
+The input file should contain a 9×9 Sudoku grid, where numbers are space-separated. There are many exmaple fiels included in this directory.
 
 ### Example (valid-sudoku.txt)
 ```
