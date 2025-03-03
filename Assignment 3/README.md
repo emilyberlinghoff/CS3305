@@ -36,7 +36,7 @@ For example:
 ```
 
 ## Input Format
-The input file should contain a 9×9 Sudoku grid, where numbers are space-separated. There are many exmaple fiels included in this directory.
+The input file should contain a 9×9 Sudoku grid, where numbers are space-separated. There are many example files included in this directory.
 
 ### Example (valid-sudoku.txt)
 ```
