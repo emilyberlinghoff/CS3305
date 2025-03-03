@@ -1,7 +1,7 @@
 # Multithreaded Sudoku Validator
 
 ## Overview
-This program checks whether a given **9×9 Sudoku solution** is valid using **multithreading**. It creates **27 threads** to validate:
+This program checks whether a given 9×9 Sudoku solution is valid using multithreading. It creates 27 threads to validate:
 - 9 rows
 - 9 columns
 - 9 subgrids (3×3 blocks)
