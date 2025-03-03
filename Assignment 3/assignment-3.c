@@ -15,6 +15,7 @@ typedef struct {
 } parameters;
 
 // Function to check if a row is valid
+// https://stackoverflow.com/questions/17605898/sudoku-checker-in-python
 void* check_row(void* param) {
     parameters* p = (parameters*)param;
     bool seen[SIZE + 1] = {false}; 
@@ -97,6 +98,7 @@ int main(int argc, char* argv[]) {
     int thread_count = 0;
 
     // Create threads for rows and columns
+    // https://github.com/sarmadhashmi/multithreaded-sudoku-validator/blob/master/CSudokuValidator.c
     for (int i = 0; i < SIZE; i++) {
         data[thread_count] = (parameters){.row = i, .col = 0, .index = thread_count};
         pthread_create(&threads[thread_count], NULL, check_row, &data[thread_count]);
