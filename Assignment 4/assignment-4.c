@@ -108,7 +108,7 @@ int readProcessesFromFile(const char* filename, Process processes[]) { // Read p
     
     while (fgets(line, sizeof(line), file) && num_processes < MAX_PROCESSES) { // Read process data from the file
         int id, burst;
-        if (sscanf(line, "P%d,%d", &id, &burst) == 2) { // Parse the line
+        if (sscanf(line, "P%d,%d", &id, &burst) == 2) { // Referenced https://www.geeksforgeeks.org/scanf-and-fscanf-in-c/
             processes[num_processes].id = id;
             processes[num_processes].arrival_time = id; // arrival time = process id
             processes[num_processes].burst_time = burst;
@@ -134,7 +134,7 @@ void printTimeStep(int time, Process *current_process) { // Function to print th
     }
 }
 
-void simulateFCFS(Process processes[], int num_processes) { // First Come First Served scheduling algorithm
+void simulateFCFS(Process processes[], int num_processes) { // Referenced https://www.geeksforgeeks.org/program-for-fcfs-cpu-scheduling-set-1/ and https://github.com/AugustineAykara/CPU-Scheduling-Algorithm-In-C/blob/master/FCFS.c
     int time = 0; // Current time
     int completed_processes = 0; // Number of completed processes
     Process *current_process = NULL; // Current process being executed
@@ -181,7 +181,7 @@ void simulateFCFS(Process processes[], int num_processes) { // First Come First 
     }
 }
 
-void simulateSJF(Process processes[], int num_processes) { // Shortest Job First scheduling algorithm (preemptive)
+void simulateSJF(Process processes[], int num_processes) { // Referenced https://www.edureka.co/blog/sjf-scheduling-in-c/ and https://www.sanfoundry.com/c-program-sjf-scheduling/#google_vignette
     int time = 0;
     int completed_processes = 0;
     Process *current_process = NULL;
@@ -236,7 +236,7 @@ void simulateSJF(Process processes[], int num_processes) { // Shortest Job First
     }
 }
 
-void simulateRR(Process processes[], int num_processes, int quantum) { // Round Robin scheduling algorithm
+void simulateRR(Process processes[], int num_processes, int quantum) { // Referenced https://www.geeksforgeeks.org/program-for-round-robin-scheduling-for-the-same-arrival-time/ and https://www.ccbp.in/blog/articles/round-robin-program-in-c
     int time = 0;
     int completed_processes = 0;
     Process *current_process = NULL;
