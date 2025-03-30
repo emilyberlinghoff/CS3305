@@ -62,12 +62,12 @@ The program will produce the following output:
 
 ### Example output
 
-![Example output](link)
+![Example output](https://github.com/emilyberlinghoff/CS3305/blob/main/Assignment%205/Screenshot%202025-03-30%20at%2013.48.09.png)
 
 ## Resources
 
 - [Multithreading in C](https://www.geeksforgeeks.org/multithreading-in-c/)
-- [Multithreading in C\n] (https://www.tutorialspoint.com/multithreading-in-c#:~:text=A%20multithreaded%20program%20contains%20two,in%20support%20for%20multithreaded%20applications.)
+- [Multithreading in C\n] (https://www.tutorialspoint.com/multithreading-in-c#:~:text=A%20multithreaded%20program%20contains%20two,in%20support%20for%20multithreaded%20applications)
 - [Pthread APIs](https://www.ibm.com/docs/en/i/7.3?topic=ssw_ibm_i_73/apis/rzah4mst.html)
 - [Basics of File Handling in C](https://www.geeksforgeeks.org/basics-file-handling-c/)
 - [File Handling in C](https://www.tutorialspoint.com/cprogramming/c_file_io.htm)
